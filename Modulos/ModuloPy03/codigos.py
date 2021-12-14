@@ -97,3 +97,36 @@ nums = [9, 8, 7, 6, 5]
 nums.append(4)
 nums.insert(2, 11)
 print(len(nums))
+
+# How many numbers does this code print?
+i = 3
+while i >= 0:
+    print(i)
+    i = i - 1
+
+# How many numbers does this code print?
+i = 5
+while True:
+    print(i)
+    i = i - 1
+    if i <= 2:
+        break
+
+# What is the output of this code?
+list = [2, 3, 4, 5, 6, 7]
+for x in list:
+    if(x % 2 == 1 and x > 4):
+        print(x)
+        break
+
+# What is the result of this code?
+nums = list(range(5))
+print(nums[4])
+
+# What is the result of this code?
+nums = list(range(5, 8))
+print(len(nums))
+
+# What is the result of this code?
+nums = list(range(3, 15, 3))
+print(nums[2])
